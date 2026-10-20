@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Важные дела{% endblock %}</title>
+    <style>
+        body { margin: 0; font: 1rem/1.5 system-ui, sans-serif; }
+        main { max-width: 32rem; margin: auto; padding: 1rem; }
+        input { box-sizing: border-box; width: 100%; padding: 0.5rem; }
+        button { padding: 0.6rem 1rem; }
+        .errorlist { color: #b91c1c; }
+    </style>
+</head>
+<body>
+    <main>{% block content %}{% endblock %}</main>
+</body>
+</html>
